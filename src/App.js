@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          VITYA PETYXd
+          VITYA PETYXds
         </p>
         <a
           className="App-link"
