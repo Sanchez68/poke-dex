@@ -1,0 +1,15 @@
+.BodyMain{
+display: grid;
+    grid-template-areas:
+"bodyLeft pokesDesk";
+    grid-template-columns: 5fr 5fr;
+    height: 1000px;
+}
+.PokeInfoMain{
+grid-area: pokesDesk;
+    background-color: gold;
+}
+.PokesDeskMain{
+    background-color: #61dafb;
+    grid-area: bodyLeft;
+}
