@@ -4,15 +4,7 @@ const PokeInfo = (props) => {
 
     return (
         <div>
-            {
-                props.pokemons.map(p => <div key={p.id}>
-                        <div>
-                            {p.name}
-                        </div>
-                    </div>
-                )
-
-            }
+           pokeInfo
         </div>
     )
 }

@@ -2,15 +2,16 @@ import React from 'react'
 import {connect} from "react-redux";
 import Body from "./Body";
 
-const BodyContainer = () => {
+const BodyContainer = (props) => {
 return (
     <div>
+
     <Body/>
     </div>
     )
 }
 
-let mapStateToProps = () =>{
-    {}
+let mapStateToProps = (state) =>{
+    return  {}
 }
 export default connect(mapStateToProps,{})(BodyContainer)

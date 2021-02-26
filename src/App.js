@@ -4,9 +4,8 @@ import HeaderContainer from "./components/Header/HeaderContainer";
 import BodyContainer from "./components/Body/BodyContainer";
 
 
-class App extends React.Component {
-    render() {
 
+function  App () {
         return (
             <div className="App">
                 <div className='header'>
@@ -15,8 +14,9 @@ class App extends React.Component {
                 <div className='body'>
                     <BodyContainer/>
                 </div>
-            </div>)
+            </div>
+        )
     }
-}
+
 
 export default App;
